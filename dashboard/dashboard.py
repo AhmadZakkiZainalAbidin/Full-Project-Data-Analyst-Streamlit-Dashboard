@@ -1,5 +1,5 @@
-from typing import final
-from unicodedata import category
+#from typing import final
+#from unicodedata import category
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -83,7 +83,9 @@ def create_monetary(df) :
     return customer_monetary
     
 #file yang diperlukan
-final_customer_order= pd.read_csv("Downloads/hello-world/submission/dashboard/final_customer_order.csv")
+#final_customer_order= pd.read_csv("Downloads/hello-world/submission/dashboard/final_customer_order.csv")
+url="https://github.com/AhmadZakkiZainalAbidin/firstapp/raw/main/final_customer_order.csv"
+final_customer_order= pd.read_csv(url, index_col=0)
 
 datetime_columns =['order_approved_at']
 final_customer_order.sort_values(by='order_approved_at', inplace=True)
