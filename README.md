@@ -12,4 +12,8 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 streamlit run dashboard.py
 ```
 ## First & Second Version Dashboard App
-https://github.com/AhmadZakkiZainalAbidin/First-Dashboard-App/blob/main/README.md
+https://github.com/AhmadZakkiZainalAbidin/First-Version-Dashboard-App
+https://github.com/AhmadZakkiZainalAbidin/Second-Version-Dashboard-App
+
+## See The Result of Final Dashboard Version
+https://projectadataanalystgit-fd7zzuwqeucozygfaht2rc.streamlit.app/
